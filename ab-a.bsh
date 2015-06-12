@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+ab -k -v 3 -n 10000 -c 10 -t 60 "http://localhost:3000/"

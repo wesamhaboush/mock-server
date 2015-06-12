@@ -1,0 +1,14 @@
+{
+  "name": "mock-server-navapp",
+  "version": "0.0.1",
+  "description": "navapp mock server implementation using mock server",
+  "dependencies": {
+    "bluebird": "^2.9.26",
+    "chai": "^2.3.0",
+    "mockserver": "^1.2.3",
+    "node-cluster-app": "0.0.3",
+    "random-ext": "^2.5.1",
+    "request-promise": "^0.4.2",
+    "sinon": "^1.14.1"
+  }
+}
