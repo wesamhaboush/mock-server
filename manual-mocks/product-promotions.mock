@@ -1,0 +1,42 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/v1/promotions/product/productids/.*\\?numberOfPromotions=-1&fetchPromoCode=true&sdpGrid=primary"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "ProductPromotions": {
+                "productPromotionOfferList": [{
+                    "productId": "2168189",
+                    "promotions": [{
+                        "promotionID": 19852994,
+                        "promotionType": "Percent Off Order",
+                        "offerDescription": "Extra 15% off select merchandise! CODE: BTS",
+                        "description": "Extra 15% off regular, sale & clearance coats, suits, dresses, lingerie, select womens swimwear, mens suit separates & sport coats and select shoes during Back to School!",
+                        "legalDisclaimer": "TO GET EXTRA SAVINGS: Place qualifying items in shopping bag, then enter promo code BTS in the box labeled HAVE A PROMO CODE? and click APPLY. You can enter the promo code in your shopping bag at any time before or during checkout. Only one promo code may be used per transaction. EXTRA 20% OFF regular, sale & clearance clothing purchases, including select backpacks, handbags & accessories, with exclusions listed. EXTRA 15% OFF regular, sale & clearance coats, suits, dresses, lingerie, select womens swimwear, mens suit separates & sport coats and select shoes, with exclusions listed. EXCLUDES: Alex Woo, All-Clad (online only), Beats by Dr. Dre, Brahmin, COACH, Cosabella (online only), all Dallas Cowboys merchandise & apparel, Destination Maternity, Dooney & Bourke, DUEPUNTI, Eileen Fisher, Emporio Armani, Hanky Panky (online only), J.A. Henckels (online only), kate spade new york, Lacoste, LAgent by Agent Provocateur, Le Creuset, Levis®, Lids, Lladro, Marchesa Fine Jewelry, Michael Aram, Michael Kors, MICHAEL Michael Kors, Montblanc, New Era caps & headwear, Nike on-field apparel, Nike, NYDJ, Ralph Lauren, Lauren Ralph Lauren, Polo Ralph Lauren, Denim & Supply Ralph Lauren, Sperry-Top Sider, Star Power by SPANX, Sunglass Hut, Swarovski, TAG Heuer (online only), Tempur-Pedic, The Fifth Season by Roberto Coin, The North Face, Tommy Bahama, Tumi, Vera Wang, Wacoal, Wolford (online only), Wusthof. Savings do not apply to athletic apparel, athletic shoes & athletic accessories, baby gear, cosmetics & fragrances, Deals of the Day, web busters, electrics & electronics, Everyday Values, floor coverings, furniture, Gift Cards, home, jewelry specials and Red Box jewelry gifts, jewelry trunk shows, kids shoes, maternity, mattresses, payment on credit accounts, previous purchases, rugs, select licensed departments, services, special orders, Special Purchases, specials, Super Buys, toys, all regular-priced bridge & designer handbags, designer sportswear, watches. Extra savings end August 6, 2015.",
+                        "PromotionAttributeDetails": []
+                    }, {
+                        "promotionID": 19852999,
+                        "promotionType": "Percent Off Order",
+                        "offerDescription": "Extra 15% off select merchandise! CODE: REDHOT",
+                        "description": "Extra 15% off sale & clearance-priced fine & fashion jewelry, womens swimwear, coats, suits, dresses, lingerie, mens suit separates & sport coats, select shoes & home items during the Red Hot Sale!",
+                        "legalDisclaimer": "TO GET EXTRA SAVINGS: Place qualifying items in shopping bag, then enter promo code REDHOT in the box labeled HAVE A PROMO CODE? and click APPLY. You can enter the promo code in your shopping bag at any time before or during checkout. Only one promo code may be used per transaction. EXTRA 20% OFF sale & clearance-priced clothing for him, her & kids, including womens Impulse clothing, with exclusions listed. EXTRA 15% OFF sale & clearance-priced fine & fashion jewelry, womens swimwear, coats, suits, dresses, lingerie, mens suit separates & sport coats, select shoes & home items, with exclusions listed. EXTRA 10% OFF sale & clearance-priced electrics (online only), furniture (online only), mattresses (online only) & rugs (online only), with exclusions listed. EXCLUDES: All-Clad (online only), Beats by Dr. Dre, all Dallas Cowboys merchandise & apparel, Destination Maternity, J.A. Henckels (online only), kate spade new york, New Era caps & headwear, Nike on-field apparel, Sunglass Hut, Tempur-Pedic, Tumi, Wolford, Wusthof. Savings do not apply to athletic apparel, athletic shoes & athletic accessories, baby gear, cosmetics & fragrances, Deals of the Day, web busters, electronics, Everyday Values, floor coverings, Gift Cards, jewelry trunk shows, kids shoes, maternity, payment on credit accounts, previous purchases, select licensed departments, services, special orders, Special Purchases, specials, Super Buys, toys and watches. Extra savings end August 2, 2015.",
+                        "PromotionAttributeDetails": [{
+                            "promotionID": 19852999,
+                            "promotionAttributeName": "BADGE_TEXT",
+                            "attributeSeqNumber": 1,
+                            "attributeValue": [{
+                                "promotionID": 19852999,
+                                "attributeValueSeqNumber": 1,
+                                "promotionAttributeName": "BADGE_TEXT",
+                                "attributeValue": "EXTRA 15% OFF"
+                            }]
+                        }]
+                    }]
+                }]
+            }
+        }
+    }
+}

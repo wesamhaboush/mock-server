@@ -1,0 +1,188 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/catalog/v2/categories/.*\\?_fields=id,name,parentCategoryId,externalHostUrl,attributes,leaf,canvasIds&_expand=id,live,countryEligible,subCategories\\(name,leaf\\)\\.depth%3D2,parentCategory\\(live\\)\\.depth%3D2147483647&sdpGrid=primary&_deviceType=DESKTOP&_shoppingMode=SITE&_regionCode=US&_application=SITE&_navigationType=SEARCH"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "category": {
+                "id": 65701,
+                "name": "Sports Fan Shop By Lids",
+                "live": true,
+                "countryEligible": true,
+                "parentCategoryId": 47923,
+                "attributes": [{
+                    "name": "TABLET_PUBLISH",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "SUPRESS_COLOR_SWATCHES",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "CAT_EXCLUDE_ADSENSE",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "CATEGORY_BRAND_FLYOUT",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "MOBILE_PUBLISH",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "CATEGORY_PAGE_TYPE",
+                    "attributeValues": [{
+                        "value": "Sub Splash"
+                    }]
+                }, {
+                    "name": "POS_SEARCHABLE",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "CATEGORY_BROWSE_TYPE",
+                    "attributeValues": [{
+                        "value": "Flexible Template"
+                    }]
+                }, {
+                    "name": "INSTORE_ELIGIBILITY",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "META_DESC",
+                    "attributeValues": [{
+                        "value": "Shop Online for the Latest Sports Fan Apparel & Accessories from Locker Room by Lids at Macys.com. FREE SHIPPING AVAILABLE!"
+                    }]
+                }, {
+                    "name": "WEDDING_PAGE_TYPE",
+                    "attributeValues": [{
+                        "value": "Brand Index"
+                    }]
+                }, {
+                    "name": "MOBILE_BROWSE_TYPE",
+                    "attributeValues": [{
+                        "value": "Flexible Template"
+                    }]
+                }, {
+                    "name": "CATEGORY_FACET_STOP",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "INTL_SUPPRESS_CAT",
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "RDPP_RULE_ID",
+                    "attributeValues": [{
+                        "value": "22"
+                    }]
+                }, {
+                    "name": "SUPPRESS_TAG_CLOUD",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "SEARCH_DESCRIPTION",
+                    "attributeValues": [{
+                        "value": "Locker Room by Lids Sports Fan Apparel & Accessories"
+                    }]
+                }, {
+                    "name": "CATEGORY_USE_POOL",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "REGISTRABLE",
+                    "attributeValues": [{
+                        "value": "Wedding"
+                    }]
+                }, {
+                    "name": "BIGTICKET_TYPE",
+                    "attributeValues": [{
+                        "value": "N/A"
+                    }]
+                }, {
+                    "name": "DYCES_CAT_POOL",
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "WEDDING_BROWSE_TYPE",
+                    "attributeValues": [{
+                        "value": "Splash"
+                    }]
+                }, {
+                    "name": "SITECHANNEL",
+                    "attributeValues": [{
+                        "value": "1"
+                    }]
+                }, {
+                    "name": "CATEGORY_PAGE_TITLE",
+                    "attributeValues": [{
+                        "value": "Sports Fan Apparel & Accessories - Locker Room by Lids"
+                    }]
+                }],
+                "leaf": false,
+                "parentCategory": {
+                    "id": 47923,
+                    "live": true,
+                    "parentCategory": {
+                        "id": 1,
+                        "live": true,
+                        "link": []
+                    },
+                    "link": []
+                },
+                "subCategories": [{
+                    "id": 66201,
+                    "name": "MLB",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66204,
+                    "name": "NFL",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66202,
+                    "name": "NBA",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66205,
+                    "name": "NHL",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66203,
+                    "name": "NCAA",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66723,
+                    "name": "Soccer",
+                    "leaf": true,
+                    "link": []
+                }, {
+                    "id": 66217,
+                    "name": "Sale & Clearance",
+                    "leaf": true,
+                    "link": []
+                }],
+                "link": []
+            }
+        }
+    }
+}

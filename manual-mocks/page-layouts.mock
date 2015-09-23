@@ -1,0 +1,43 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/content/v2/layouts/.*"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "layouts": {
+                "layout": [{
+                    "id": 102000002168189,
+                    "rows": [{
+                        "templateId": 1000,
+                        "zones": [{
+                            "name": "BULLET_LINK",
+                            "contents": [{
+                                "link": {
+                                    "rel": "2992086",
+                                    "href": "http://macyds306:8080/api/content/v2/contents/2992086"
+                                }
+                            }],
+                            "nested-Content": {
+                                "entry": []
+                            }
+                        }, {
+                            "name": "PDP_ICON_1",
+                            "contents": [{
+                                "link": {
+                                    "rel": "2301263",
+                                    "href": "http://macyds306:8080/api/content/v2/contents/2301263"
+                                }
+                            }],
+                            "nested-Content": {
+                                "entry": []
+                            }
+                        }]
+                    }]
+                }]
+            }
+        }
+    }
+}

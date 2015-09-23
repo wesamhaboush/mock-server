@@ -1,0 +1,532 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/catalog/v2/products/.*\\?_fields=id,name,defaultCategoryId,upcs,shipping,price,giftWrappable,giftWrapId,externalHostURL,typeName,maxQuantity,comparable,productGroup,productStartDays,clearanceStartDays,isNew,active,archived,attributes,primaryImageSource,primaryPortraitSource,additionalImageSource,editorsPick,thumbnailCallout,domainValuesMap,primaryImage,additionalImages,colorwayImages,syndicateId,reviewStatistics&sdpGrid=primary"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "product": {
+                "id": 2168189,
+                "name": "adidas Women's Charlotte Hornets Tank Top",
+                "price": {
+                    "originalPrice": 30.0,
+                    "intermediatePrice": 0.0,
+                    "retailPrice": 22.5,
+                    "priceType": 7,
+                    "saleValue": 0.0,
+                    "intermediateSaleValue": 0.0,
+                    "displayCode": "",
+                    "basePriceType": 0,
+                    "onSale": true
+                },
+                "defaultCategoryId": 65701,
+                "upcs": [{
+                    "id": 34146872,
+                    "upc": 888161129033,
+                    "productId": 2168189,
+                    "price": {
+                        "originalPrice": 30.0,
+                        "intermediatePrice": 0.0,
+                        "retailPrice": 22.5,
+                        "priceType": 7,
+                        "saleValue": 0.0,
+                        "intermediateSaleValue": 0.0,
+                        "displayCode": "",
+                        "basePriceType": 0,
+                        "onSale": true
+                    },
+                    "availability": {
+                        "upcId": 34146872,
+                        "available": true,
+                        "shipDays": 5,
+                        "orderMethod": "DROP",
+                        "giftWrappable": false,
+                        "giftMessageable": true,
+                        "returnConstraints": "NV",
+                        "vendorId": 393680,
+                        "source": "V2CR",
+                        "shippingMethodsCode": 1,
+                        "shipMethodsSource": "FDFL",
+                        "inStoreEligibility": true,
+                        "inventoryStatusCode": "BACKORDERED",
+                        "upcAvailabilityMessage": "Direct from vendor: usually ships within 5 business days."
+                    },
+                    "addByApp": "MCOM",
+                    "baseFeeExempt": false,
+                    "surchargeFee": 0.0,
+                    "backorderable": false,
+                    "upcModelNumber": "B339WKZZWCH4016",
+                    "attributes": [{
+                        "name": "COLOR_NORMAL",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "White",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "DISCOUNTABLE",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "Y",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "SIZE_NORMAL",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "S",
+                            "sequenceNumber": 1700
+                        }]
+                    }, {
+                        "name": "COLOR",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "White",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "SIZE",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "S",
+                            "sequenceNumber": 1700
+                        }]
+                    }],
+                    "colorway": {
+                        "colorwayId": 1833788,
+                        "colorName": "White",
+                        "colorNormalName": "White",
+                        "swatchSeqNumber": 0,
+                        "swapoutSeqNumber": 0,
+                        "primaryImage": {
+                            "imageName": "2762167.fpx",
+                            "seqNumber": 1
+                        }
+                    },
+                    "active": true,
+                    "v2cFlag": true
+                }, {
+                    "id": 34146874,
+                    "upc": 888161129040,
+                    "productId": 2168189,
+                    "price": {
+                        "originalPrice": 30.0,
+                        "intermediatePrice": 0.0,
+                        "retailPrice": 22.5,
+                        "priceType": 7,
+                        "saleValue": 0.0,
+                        "intermediateSaleValue": 0.0,
+                        "displayCode": "",
+                        "basePriceType": 0,
+                        "onSale": true
+                    },
+                    "availability": {
+                        "upcId": 34146874,
+                        "available": true,
+                        "shipDays": 5,
+                        "orderMethod": "DROP",
+                        "giftWrappable": false,
+                        "giftMessageable": true,
+                        "returnConstraints": "NV",
+                        "vendorId": 393680,
+                        "source": "V2CR",
+                        "shippingMethodsCode": 1,
+                        "shipMethodsSource": "FDFL",
+                        "inStoreEligibility": true,
+                        "inventoryStatusCode": "BACKORDERED",
+                        "upcAvailabilityMessage": "Direct from vendor: usually ships within 5 business days."
+                    },
+                    "addByApp": "MCOM",
+                    "baseFeeExempt": false,
+                    "surchargeFee": 0.0,
+                    "backorderable": false,
+                    "upcModelNumber": "B339WKZZWCH4016",
+                    "attributes": [{
+                        "name": "COLOR_NORMAL",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "White",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "DISCOUNTABLE",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "Y",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "SIZE_NORMAL",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "M",
+                            "sequenceNumber": 2100
+                        }]
+                    }, {
+                        "name": "COLOR",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "White",
+                            "sequenceNumber": 0
+                        }]
+                    }, {
+                        "name": "SIZE",
+                        "sortWeight": 0,
+                        "visible": false,
+                        "unary": false,
+                        "attributeValues": [{
+                            "value": "M",
+                            "sequenceNumber": 2100
+                        }]
+                    }],
+                    "colorway": {
+                        "colorwayId": 1833788,
+                        "colorName": "White",
+                        "colorNormalName": "White",
+                        "swatchSeqNumber": 0,
+                        "swapoutSeqNumber": 0,
+                        "primaryImage": {
+                            "imageName": "2762167.fpx",
+                            "seqNumber": 1
+                        }
+                    },
+                    "active": true,
+                    "v2cFlag": true
+                }],
+                "shipping": {
+                    "excludedStates": [{
+                        "code": "PW",
+                        "name": "Palau"
+                    }, {
+                        "code": "PR",
+                        "name": "Puerto Rico"
+                    }, {
+                        "code": "GU",
+                        "name": "Guam"
+                    }, {
+                        "code": "AP",
+                        "name": "Armed Forces Pacific"
+                    }, {
+                        "code": "MH",
+                        "name": "Marshall Islands"
+                    }, {
+                        "code": "AA",
+                        "name": "Armed Forces Americas"
+                    }, {
+                        "code": "HI",
+                        "name": "Hawaii"
+                    }, {
+                        "code": "AK",
+                        "name": "Alaska"
+                    }, {
+                        "code": "VI",
+                        "name": "U.S. Virgin Islands"
+                    }, {
+                        "code": "MP",
+                        "name": "Northern Mariana"
+                    }, {
+                        "code": "AE",
+                        "name": "Armed Forces Europe"
+                    }, {
+                        "code": "AS",
+                        "name": "American Samoa"
+                    }, {
+                        "code": "FM",
+                        "name": "Federated States of Micronesia"
+                    }],
+                    "shippingMethods": [{
+                        "code": "G",
+                        "name": "Standard"
+                    }],
+                    "returnConstraints": [{
+                        "returnCode": "NV",
+                        "returnInstruction": "No store returns - return to Dropship Vendor using Vendor Return Address"
+                    }],
+                    "notes": [],
+                    "giftWrappable": false,
+                    "giftMessageable": true
+                },
+                "giftWrappable": false,
+                "typeName": "TOP",
+                "maxQuantity": 12,
+                "comparable": true,
+                "productGroup": false,
+                "productStartDays": 166,
+                "clearanceStartDays": 16688,
+                "isNew": false,
+                "active": true,
+                "archived": false,
+                "attributes": [{
+                    "name": "PRODUCT_DATA_SOURCE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "2"
+                    }]
+                }, {
+                    "name": "GENDER_AGE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Women"
+                    }]
+                }, {
+                    "name": "WARRANTY",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "N"
+                    }]
+                }, {
+                    "name": "FORCED_NEW_END_DATE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "04/26/2015 07:04:22 PM"
+                    }]
+                }, {
+                    "name": "PRODUCT_DEPARTMENT",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Tops"
+                    }]
+                }, {
+                    "name": "LIDS_CLOTHING_ACCESSORIES",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Tank Tops"
+                    }]
+                }, {
+                    "name": "FORCED_NEW_START_DATE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "03/27/2015 07:03:22 PM"
+                    }]
+                }, {
+                    "name": "INTL_SUPPRESS_PRODUCT",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Y"
+                    }]
+                }, {
+                    "name": "BULLET_TEXT",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Ribbed scoop neckline"
+                    }, {
+                        "value": "Pullover style"
+                    }, {
+                        "value": "Sleeveless with racerback straps"
+                    }, {
+                        "value": "Screen print team logo at front "
+                    }, {
+                        "value": "Screen print adidas logo at left chest"
+                    }, {
+                        "value": "Fitted"
+                    }, {
+                        "value": "Officially licensed"
+                    }]
+                }, {
+                    "name": "PRODUCT_PORTRAIT_IMAGE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "2762167.fpx"
+                    }]
+                }, {
+                    "name": "AGE_CATEGORY",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Adult"
+                    }]
+                }, {
+                    "name": "LEAGUE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "NBA"
+                    }]
+                }, {
+                    "name": "PRODUCT_CARE",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Machine washable"
+                    }]
+                }, {
+                    "name": "ALT PRIMARY",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "2762167.fpx"
+                    }]
+                }, {
+                    "name": "GENDER",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Female"
+                    }]
+                }, {
+                    "name": "PDF_EMAIL_DESCRIPTION",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Women's Charlotte Hornets Tank Top"
+                    }]
+                }, {
+                    "name": "PRODUCT_LONG_DESCRIPTION",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Watch the Charlotte Hornets in comfort and style with this NBA women's Lace Up tank this basketball season. With a great design and fit, this will be your go-to top to support your team."
+                    }]
+                }, {
+                    "name": "FABRIC_CONTENT",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Polyester/cotton"
+                    }]
+                }, {
+                    "name": "COUNTRY_OF_ORIGIN",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Imported"
+                    }]
+                }, {
+                    "name": "DEFAULT_CATEGORY",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "19851577_0"
+                    }, {
+                        "value": "19851596_0"
+                    }, {
+                        "value": "19851597_0"
+                    }, {
+                        "value": "19851598_0"
+                    }, {
+                        "value": "19851599_0"
+                    }, {
+                        "value": "19851608_0"
+                    }, {
+                        "value": "19851609_0"
+                    }, {
+                        "value": "19851611_0"
+                    }, {
+                        "value": "19851612_0"
+                    }, {
+                        "value": "19854455_0"
+                    }, {
+                        "value": "19854456_0"
+                    }, {
+                        "value": "19854457_0"
+                    }, {
+                        "value": "19854458_0"
+                    }, {
+                        "value": "19854477_0"
+                    }, {
+                        "value": "19854491_0"
+                    }, {
+                        "value": "19854493_0"
+                    }, {
+                        "value": "19854577_0"
+                    }, {
+                        "value": "19854846_0"
+                    }, {
+                        "value": "19854850_0"
+                    }, {
+                        "value": "19854875_0"
+                    }, {
+                        "value": "19854876_0"
+                    }]
+                }, {
+                    "name": "BRAND",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "adidas"
+                    }]
+                }, {
+                    "name": "SIZE_CHART",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "4076586.gif"
+                    }]
+                }, {
+                    "name": "PROFESSIONAL_TEAM",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Charlotte Hornets"
+                    }]
+                }, {
+                    "name": "BUSINESS_CATEGORY",
+                    "sortWeight": 0,
+                    "visible": false,
+                    "unary": false,
+                    "attributeValues": [{
+                        "value": "Men's"
+                    }]
+                }],
+                "primaryPortraitSource": "7/optimized/2762167_fpx",
+                "additionalImageSource": [],
+                "primaryImage": {
+                    "imageName": "2762167.fpx"
+                }
+            }
+        }
+    }
+}

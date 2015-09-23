@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/catalog/v2/products/.*\\?_fields=id,masterProductIds,memberProductIds,available,countryEligible,rebatesAvailable,checkInStoreEligibility,visible"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "product": {
+                "id": 2168189,
+                "countryEligible": true,
+                "rebatesAvailable": false,
+                "checkInStoreEligibility": false,
+                "visible": true,
+                "available": true
+            }
+        }
+    }
+}

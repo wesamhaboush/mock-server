@@ -1,0 +1,75 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/review/v1/reviews\\?prodId=.*&_application=SITE&_deviceType=DESKTOP&_navigationType=BROWSE&_regionCode=US&_shoppingMode=SITE&_offset=0&_limit=8&_sortby=submissionTime&_sortorder=DESCENDING&includeOtherReviewsByUser=true"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "reviews": {
+                "review": [{
+                    "id": 98985714,
+                    "reviewerId": "9310480934",
+                    "displayName": "Goldilocks12",
+                    "anonymous": false,
+                    "ratingsOnly": false,
+                    "titleOfReview": "A \"wow\" dress!",
+                    "reviewText": "I bought this in the yellow. It's kind of a vibrant mustard. Anyway - it's gorgeous. This dress literally turns heads when I walk by - everyone seems to love it. It is not a dress to wear if you want to fade into the background! Be prepared for lots of attention. I love it.",
+                    "rating": 5,
+                    "recommended": true,
+                    "numFeedbacks": 2,
+                    "numPositiveFeedbacks": 2,
+                    "numNegativeFeedbacks": 0,
+                    "reviewerLocation": "Washington DC",
+                    "displayLocale": "en_US",
+                    "submissionTime": "2015-07-18T11:33:54.000",
+                    "productReviewsURL": "http://reviews.macys.com/7129/2168189/calvin-klein-printed-belted-maxi-dress-reviews/reviews.htm?reviewID=98985714",
+                    "featured": false,
+                    "moderationStatus": "APPROVED",
+                    "lastModificationDate": "2015-07-22T11:14:16.000",
+                    "ratingRange": 5,
+                    "profile": {},
+                    "photos": [],
+                    "videos": [],
+                    "sliders": [{
+                        "id": "Length",
+                        "label1": "Too Short",
+                        "label2": "Too Long",
+                        "ratingRange": 7,
+                        "ratingValue": 4.0
+                    }, {
+                        "id": "Coverage",
+                        "label1": "Minimal Coverage",
+                        "label2": "Full Coverage",
+                        "ratingRange": 7,
+                        "ratingValue": 4.0
+                    }],
+                    "topContributor": false,
+                    "otherReviews": [{
+                        "productId": 2168189,
+                        "productName": "Calvin Klein Printed Belted Maxi Dress",
+                        "id": 98985714,
+                        "reviewerId": "9310480934",
+                        "displayName": "Goldilocks12",
+                        "anonymous": false,
+                        "titleOfReview": "A \"wow\" dress!",
+                        "rating": 5,
+                        "submissionTime": "2015-07-18T11:33:54.000",
+                        "productReviewsURL": "http://reviews.macys.com/7129/2168189/calvin-klein-printed-belted-maxi-dress-reviews/reviews.htm?reviewID=98985714",
+                        "moderationStatus": "APPROVED",
+                        "ratingRange": 5
+                    }],
+                    "link": [{
+                        "rel": "product",
+                        "ref": "http://11.168.104.186:85/api/catalog/v2/products/2168189"
+                    }]
+                }],
+                "link": [{
+                    "rel": "self",
+                    "ref": "http://11.168.104.186:85/api/review/v1/reviews?_application=SITE&_deviceType=DESKTOP&_navigationType=BROWSE&_regionCode=US&_shoppingMode=SITE&prodId=2168189&_offset=0&_limit=8&_sortby=submissionTime&_sortorder=DESCENDING&includeOtherReviewsByUser=true"
+                }]
+            }
+        }
+    }
+}

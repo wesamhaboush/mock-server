@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf8
+
+{
+  "product": {
+    "id": 2238408,
+    "countryEligible": true,
+    "rebatesAvailable": false,
+    "checkInStoreEligibility": false,
+    "visible": true,
+    "available": true
+  }
+}

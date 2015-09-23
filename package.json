@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "mock server implementation using mock-server",
   "dependencies": {
+    "hashmap": "^2.0.3",
     "mockserver": "^1.2.3",
     "node-cluster-app": "0.0.3"
   }

@@ -1,0 +1,51 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/content/v2/contents/.*\\?_expand=media&sdpGrid=primary"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "contents": {
+                "content": [{
+                    "contentId": "2301263",
+                    "componentID": 2301263,
+                    "fileName": "060214_Lids_pdp_ad_Banner_1133140.png",
+                    "height": 102,
+                    "width": 325,
+                    "text": "Locker Room by Lids, fan gear for the whole family, shop now",
+                    "description": "Locker Room By Lids PDP ad Banner",
+                    "contentGroupID": 617706,
+                    "contentGroupType": "AD",
+                    "contentType": "IMAGE",
+                    "contentlinks": [{
+                        "value": "65701",
+                        "type": "CATEGORY",
+                        "coordinates": "",
+                        "text": "",
+                        "seqNbr": "1"
+                    }]
+                }, {
+                    "contentId": "2992086",
+                    "componentID": 2992086,
+                    "fileName": "2992086.fpx",
+                    "height": 0,
+                    "width": 0,
+                    "text": "Shop all Charlotte Hornets gear! ",
+                    "description": "Charlotte Hornets pdp text link ",
+                    "contentGroupID": 654021,
+                    "contentGroupType": "AD",
+                    "contentType": "TEXT",
+                    "contentlinks": [{
+                        "value": "/shop/mens-clothing/lids-locker-room-ncaa-apparel-accessories/Professional_team,Sortby,Productsperpage/Charlotte Hornets,ORIGINAL,40?id=66202",
+                        "type": "STATIC",
+                        "coordinates": "",
+                        "text": "",
+                        "seqNbr": "2"
+                    }]
+                }]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/content/v2/PDP/pages/.*\\?_deviceType=DESKTOP&_shoppingMode=SITE&_application=SITE&_navigationType=SEARCH"
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf8",
+        "body": {
+            "pages": {
+                "page": [{
+                    "pageId": 2168189,
+                    "pageType": "PDP",
+                    "link": {
+                        "rel": "102000002168189",
+                        "href": "http://macyds306:8080/api/content/v2/layouts/102000002168189"
+                    }
+                }]
+            }
+        }
+    }
+}
