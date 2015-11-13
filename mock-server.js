@@ -1,36 +1,52 @@
-var http = require('http');
-var fs = require('fs');
+var _ = require('underscore');
+var restify = require('restify');
+var port = process.env.port || '9001';
 var specSet = [];
 
-var server = http.createServer(mockserver('./manual-mocks/'));
-var port = '9001';
+var server = restify.createServer({
+    name: 'mock-server',
+    version: require(__dirname + '/package.json').version
+});
 
-var connectionCount = 0;
-server
-    .listen(port, function() {
-        console.log('server started on port [%s]', port);
+
+function serveMocks(req, res, next) {
+    var resultSpecs = specSet.find(firstMatchingSpecs(req));
+    res.statusCode = resultSpecs.response.statusCode;
+    res.contentType = resultSpecs.response.contentType;
+    res.end(JSON.stringify(resultSpecs.response.body));
+    next();
+};
+
+function getSpec(req, res, next) {
+    res.send(201, {
+        specs: specSet
     });
+    next();
+};
 
 
-function mockserver(dir) {
-    loadFiles(dir);
-    return function db(req, res) {
-        var resultSpecs = specSet.find(firstMatchingSpecs(req));
-        res.statusCode = resultSpecs.response.statusCode;
-        res.contentType = resultSpecs.response.contentType;
-        res.end(JSON.stringify(resultSpecs.response.body));
+function addSpec(req, res, next) {
+    var specs = JSON.parse(req.body);
+    specSet.push(specs);
+    res.send(201);
+    next();
+};
+
+function deleteSpec(req, res, next) {
+    var specs = JSON.parse(req.body);
+    var newSpecSet = specSet.filter(function(current) {
+        return !_.isEqual(specs, current);
+    });
+    if (newSpecSet.length === specSet.length) {
+        res.send(404, {
+            message: "count not find specs to delete"
+        });
+    } else {
+        specSet = newSpecSet;
+        res.send(200);
     }
-}
-
-
-function loadFiles(dir) {
-    var files = fs.readdirSync(dir);
-    files.forEach(function(file) {
-        var content = fs.readFileSync(dir + file, 'utf-8');
-        var specs = JSON.parse(content);
-        specSet.push(specs);
-    });
-}
+    next();
+};
 
 function firstMatchingSpecs(req) {
     return function isMatchingSpecs(currentSpecs, index, array) {
@@ -44,4 +60,16 @@ function firstMatchingSpecs(req) {
         }
         return new RegExp(currentSpecs.request.url).test(req.url) && (req.method == currentSpecs.request.method);
     };
-}
+};
+
+server.use(restify.bodyParser());
+
+server.get('/spec', getSpec);
+server.post('/spec', addSpec);
+server.del('/spec', deleteSpec);
+server.get('.*', serveMocks);
+server.use(serveMocks);
+
+server.listen(port, function() {
+    console.log('%s listening at %s', server.name, server.url);
+});

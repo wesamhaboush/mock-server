@@ -1,7 +1,7 @@
 var ClusterApp = require('node-cluster-app')
 
 var app = new ClusterApp({
-    workers: 10,
+    workers: 1,
     timeout: 2000,
     restart: true,
     evlog:   false
