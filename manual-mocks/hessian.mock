@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/media/.*",
+        "contentType": "x-application/hessian",
+        "body": "YwIAbQAEd29yZFMABmJhZGFyaUkAAAAFeg=="
+    },
+    "response": {
+        "statusCode": 200,
+        "contentType": "x-application/hessian",
+        "body": "SAIAUh5iYWRhcmliYWRhcmliYWRhcmliYWRhcmliYWRhcmk="
+    }
+}
